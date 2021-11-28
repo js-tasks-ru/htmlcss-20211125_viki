@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: orange;
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
+
+main {
+  border: 10px solid green;
+  background-color: blue;
+}
+
+article {
+  border: 2px solid green;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: purple;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
