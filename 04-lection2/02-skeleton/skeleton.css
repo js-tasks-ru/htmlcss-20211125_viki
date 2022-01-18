@@ -1,0 +1,52 @@
+.skeleton {
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 24px 40px 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skeleton__top {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skeleton__ellipse {
+  width: 64px;
+  height: 64px;
+  background: var(--grey-2);
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.skeleton__rectangles {
+  flex-grow: 1;
+}
+
+.skeleton__rectangle {
+  height: 20px;
+  background: linear-gradient(
+    92.51deg,
+    #dde2e5 6.44%,
+    #e2e6e8 38.47%,
+    #f3f5f5 56.48%,
+    #e3e7ea 77.5%,
+    #dde2e5 102.52%
+  );
+}
+
+.skeleton__rectangle_short {
+  width: 39%;
+  margin-bottom: 8px;
+}
+
+.skeleton__rectangle_medium {
+  width: 59%;
+}
+
+.skeleton__rectangle_long:first-child {
+  margin-bottom: 8px;
+}
