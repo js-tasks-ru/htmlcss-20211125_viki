@@ -8,13 +8,6 @@
   display: none;
 }
 
-.modal__body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .modal__content {
   border-radius: 8px;
   width: 428px;
@@ -22,6 +15,10 @@
   padding: 30px 40px;
   background: var(--white);
   position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal__close {
