@@ -4,8 +4,55 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
+        <style>
+            .wrapper {
+                display: inline-flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        </style>
     </head>
     <body>
 
+        <div class="wrapper">
+
+            <label class="toggler">
+                <input type="checkbox" class="toggler__input">
+                <span class="toggler__state">
+                    <span class="toggler__control">
+                        <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill=""/>
+                        </svg>                                                  
+                    </span>
+                    <span class="toggler__title">Off</span>
+                </span>
+            </label>
+
+            <label class="toggler">
+                <input type="checkbox" class="toggler__input" checked>
+                <span class="toggler__state">
+                    <span class="toggler__control">
+                        <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill=""/>
+                        </svg>                                                  
+                    </span>
+                    <span class="toggler__title">On</span>
+                </span>
+            </label>
+
+            <label class="toggler">
+                <input type="checkbox" class="toggler__input" disabled>
+                <span class="toggler__state">
+                    <span class="toggler__control">
+                        <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="12" fill=""/>
+                        </svg>                                                  
+                    </span>
+                    <span class="toggler__title">Disabled</span>
+                </span>
+            </label>
+
+    </div>
+        
     </body>
 </html>

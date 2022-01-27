@@ -4,8 +4,55 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            .wrapper {
+                display: inline-flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        </style>
     </head>
     <body>
+
+        <div class="wrapper">
+
+            <label class="radio">
+                <input type="radio" class="radio__input" name="radio">
+                <span class="radio__state">
+                    <span class="radio__control">
+                        <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>                                                
+                    </span>
+                    <span class="radio__title">Default</span>
+                </span>
+            </label>
+
+            <label class="radio">
+                <input type="radio" class="radio__input" name="radio" checked>
+                <span class="radio__state">
+                    <span class="radio__control">
+                        <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>                        
+                    </span>
+                    <span class="radio__title">Selected</span>
+                </span>
+            </label>
+
+            <label class="radio">
+                <input type="radio" class="radio__input" name="radio" disabled>
+                <span class="radio__state">
+                    <span class="radio__control">
+                        <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="18" height="18" rx="9" fill="#4263EB"/>
+                        </svg>                         
+                    </span>
+                    <span class="radio__title">Disabled</span>
+                </span>
+            </label>
+
+    </div>
 
     </body>
 </html>
